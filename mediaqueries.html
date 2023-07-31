@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body{
+                background-color: paleturquoise;
+            }
+            #john{
+                float: none;
+                background-color: blue;
+                justify-content: center;
+                margin: 16px;
+                padding: 15px;
+                justify-content: space-between;
+                font-family: Arial;
+            }
+            div{
+                background-color: black;
+                color: aliceblue;
+                display: flex;
+                padding: 12px;
+                font-size:25px;
+                border-radius: 20px;
+            }
+        
+            /* @media only screen and (max-width: 600px) {
+                div{
+                    background-color: yellowgreen;   
+                }
+            }
+        @media only screen and (max-width:1024px){
+            div{
+                background-color: aqua;
+            }
+            
+        } */
+             @media only screen and (min-width: 350px) and (max-width: 600px){ 
+                body{
+                    background-color: grey;
+                    width: auto;
+                }
+                    div{
+                    background-color: red;
+                    width: auto;
+                }
+                #john{
+                    background-color: black;
+                    width: auto;
+                }  
+            }              
+        </style>
+    </head>
+    <body>
+        <div id="john" style=" border-radius: 20px;">
+            <div>John</div>
+            <div>Wick</div>
+            <div>Warner</div>
+            <div>Bros</div>
+        </div>
+    </body>
+</html>
